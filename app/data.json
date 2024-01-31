@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ул. Тверская, 24",
+        "LATITUDE": 55.76169,
+        "LONGITUDE": 37.626072
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.626072, 55.76169]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ул. Тверская, 24",
+        "LATITUDE": 55.761532,
+        "LONGITUDE": 37.590921
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.590921, 55.761532]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Text--3",
+        "LATITUDE": 55.742998,
+        "LONGITUDE": 37.660523
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.660523, 55.742998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Text--4",
+        "LATITUDE": 55.73184,
+        "LONGITUDE": 37.631091
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.631091, 55.73184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Text--5",
+        "LATITUDE": 55.750475,
+        "LONGITUDE": 37.650686
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.650686, 55.750475]
+      }
+    }
+  ]
+}
