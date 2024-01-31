@@ -26,7 +26,7 @@ const replace = require('gulp-replace');
 
 const cb = () => { };
 let srcFonts = './src/scss/base/_fonts.scss';
-let appFonts = './app/fonts/';
+let appFonts = './dist/fonts/';
 const fontsStyle = (done) => {
   let file_content = fs.readFileSync(srcFonts);
 
@@ -50,10 +50,10 @@ const fontsStyle = (done) => {
 const fonts = () => {
   src('./src/fonts/**.ttf')
     .pipe(ttf2woff())
-    .pipe(dest('./app/fonts'))
+    .pipe(dest('./dist/fonts'))
   return src('./src/fonts/**.ttf')
     .pipe(ttf2woff2())
-    .pipe(dest('./app/fonts'))
+    .pipe(dest('./dist/fonts'))
 };
 
 const styles = () => {
@@ -74,7 +74,7 @@ const styles = () => {
       level: 2
     }))
     .pipe(sourcemaps.write('.'))
-    .pipe(dest('./app/css/'))
+    .pipe(dest('./dist/css/'))
     .pipe(browserSync.stream());
 };
 
@@ -84,17 +84,17 @@ const htmlInclude = () => {
       prefix: '@',
       basepath: '@file'
     }))
-    .pipe(dest('./app'))
+    .pipe(dest('./dist'))
     .pipe(browserSync.stream());
 };
 
 const imgToApp = () => {
   return src(['./src/img/**.jpg', './src/img/**.png', './src/img/**.webp', './src/img/**.avif', './src/img/**.jpeg', './src/img/imgSvg/*.svg'])
-    .pipe(dest('./app/img'))
+    .pipe(dest('./dist/img'))
 };
 const imgToAppF = () => {
   return src(['./src/img/favicon_io/*.*'])
-    .pipe(dest('./app/img/favicon_io/'))
+    .pipe(dest('./dist/img/favicon_io/'))
 };
 
 //for no changing
@@ -107,7 +107,7 @@ const svgSprites = () => {
         }
       }
     }))
-    .pipe(dest('./app/img/'))
+    .pipe(dest('./dist/img/'))
 };
 // if need manipulate
 const svgSpritesIcons = () => {
@@ -129,16 +129,16 @@ const svgSpritesIcons = () => {
     .pipe(replace('&gt;', '>'))
     .pipe(svgstore())
     .pipe(rename({ basename: 'spriteStyle' }))
-    .pipe(dest('./app/img/'))
+    .pipe(dest('./dist/img/'))
 };
 
 const resources = () => {
   return src('./src/resources/**')
-    .pipe(dest('./app'))
+    .pipe(dest('./dist'))
 };
 
 const clean = () => {
-  return del(['app/*'])
+  return del(['dist/*'])
 };
 
 const scripts = () => {
@@ -172,7 +172,7 @@ const scripts = () => {
     .pipe(concat('main.min.js'))
     .pipe(uglify().on("error", notify.onError()))
     .pipe(sourcemaps.write('.'))
-    .pipe(dest('./app/js'))
+    .pipe(dest('./dist/js'))
     .pipe(browserSync.stream());
 
 };
@@ -180,7 +180,7 @@ const scripts = () => {
 const watchFiles = () => {
   browserSync.init({
     server: {
-      baseDir: './app'
+      baseDir: './dist'
     }
   });
   watch('./src/scss/**/*.scss', styles);
@@ -222,7 +222,7 @@ const stylesBuild = () => {
     .pipe(cleanCss({
       level: 2
     }))
-    .pipe(dest('./app/css/'))
+    .pipe(dest('./dist/css/'))
 };
 // finish script js 
 const scriptsBuild = () => {
@@ -252,7 +252,7 @@ const scriptsBuild = () => {
     })
     .pipe(concat('main.min.js'))
     .pipe(uglify().on("error", notify.onError()))
-    .pipe(dest('./app/js'))
+    .pipe(dest('./dist/js'))
 };
 
 const images = () => {
@@ -261,7 +261,7 @@ const images = () => {
       imagemin.mozjpeg({ quality: 75, progressive: true }),
       imagemin.optipng({ optimizationLevel: 5 })
     ]))
-    .pipe(dest('./app/img'))
+    .pipe(dest('./dist/img'))
 };
 
 
