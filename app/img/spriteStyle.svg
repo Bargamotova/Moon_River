@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="Facebook"><g fill="inherit">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 0C7.835 0 0 7.835 0 17.5S7.835 35 17.5 35 35 27.165 35 17.5 27.165 0 17.5 0Zm1.824 18.269v9.52h-3.94v-9.52h-1.967v-3.28h1.968v-1.97c0-2.677 1.111-4.269 4.268-4.269h2.629v3.281h-1.643c-1.23 0-1.31.459-1.31 1.315l-.005 1.642H22.3l-.348 3.28h-2.628Z" fill="inherit"/>
+</g></symbol><symbol id="Instagram"><g fill="inherit">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 0C7.835 0 0 7.835 0 17.5S7.835 35 17.5 35 35 27.165 35 17.5 27.165 0 17.5 0Zm-3.848 8.223c.996-.045 1.314-.056 3.849-.056h-.003c2.535 0 2.852.01 3.848.056.994.045 1.672.203 2.267.434a4.56 4.56 0 0 1 1.653 1.076c.52.519.838 1.04 1.077 1.653.23.594.387 1.272.434 2.266.045.995.056 1.313.056 3.848s-.011 2.852-.056 3.848c-.047.993-.204 1.671-.434 2.265a4.582 4.582 0 0 1-1.077 1.653 4.566 4.566 0 0 1-1.652 1.078c-.594.23-1.273.388-2.267.433-.995.045-1.312.056-3.847.056s-2.853-.01-3.848-.056c-.994-.045-1.672-.203-2.266-.434a4.57 4.57 0 0 1-1.653-1.077 4.573 4.573 0 0 1-1.076-1.653c-.231-.594-.388-1.272-.434-2.265-.045-.996-.056-1.313-.056-3.848s.011-2.853.056-3.849c.045-.993.202-1.671.433-2.265a4.582 4.582 0 0 1 1.078-1.653 4.57 4.57 0 0 1 1.653-1.076c.593-.231 1.272-.389 2.265-.434Z" fill="inherit"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.664 9.849h.837c2.492 0 2.787.009 3.771.053.91.042 1.404.194 1.733.322.436.169.746.371 1.073.698.327.326.529.638.698 1.073.128.329.28.823.322 1.733.044.984.054 1.28.054 3.77s-.01 2.786-.054 3.77c-.042.91-.194 1.404-.322 1.733-.169.435-.371.745-.698 1.072a2.886 2.886 0 0 1-1.073.698c-.328.128-.823.28-1.733.322-.983.044-1.279.054-3.771.054s-2.788-.01-3.772-.054c-.91-.042-1.403-.194-1.733-.322a2.891 2.891 0 0 1-1.073-.698A2.893 2.893 0 0 1 10.225 23c-.128-.329-.28-.823-.322-1.733-.045-.983-.054-1.279-.054-3.771 0-2.493.01-2.787.054-3.77.042-.91.194-1.405.322-1.734.169-.435.371-.746.698-1.073a2.897 2.897 0 0 1 1.073-.698c.33-.129.823-.28 1.733-.322.862-.04 1.195-.05 2.935-.053v.003Zm5.819 1.55a1.12 1.12 0 1 0 0 2.24 1.12 1.12 0 0 0 0-2.241ZM12.708 17.5a4.793 4.793 0 1 1 9.585 0 4.793 4.793 0 0 1-9.585 0Z" fill="inherit"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.501 14.389a3.111 3.111 0 1 1 0 6.222 3.111 3.111 0 0 1 0-6.222Z" fill="inherit"/>
+</g></symbol><symbol id="arrow@c"><g fill="inherit">
+    <path d="M21.125 1 29 8.5m0 0L21.125 16M29 8.5H1" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g></symbol><symbol id="arrow@cr"><g fill="inherit">
+    <path d="M21.125 1 29 8.5m0 0L21.125 16M29 8.5H1" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g></symbol><symbol id="arrow@dark"><g fill="inherit">
+    <path d="M21.125 1 29 8.5m0 0L21.125 16M29 8.5H1" stroke="#272727" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g></symbol><symbol id="arrow@next"><g fill="inherit">
+    <path d="M37.656 1 52 15.5m0 0L37.656 30M52 15.5H1" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g></symbol><symbol id="arrow@prev"><g fill="inherit">
+    <path d="M15.344 1 1 15.5m0 0L15.344 30M1 15.5h51" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g></symbol><symbol id="card"><g fill="inherit">
+    <path d="M4.5 8H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-2.5m-8 0V5a4 4 0 0 1 4-4v0a4 4 0 0 1 4 4v3m-8 0h8" stroke="inherit" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g></symbol></svg>
