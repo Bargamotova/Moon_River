@@ -1,0 +1,41 @@
+.gallery {
+  &__container {
+    @media only screen and (min-width: 81.25em) {
+      max-width: 144rem;
+      margin: 0 auto;
+    }
+  }
+  &__content {
+    display: grid;
+    gap: 20px;
+    @media only screen and (min-width: 64em) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media only screen and (min-width: 81.25em) {
+      grid-template-columns: 1fr 1.5fr 1fr;
+    }
+  }
+  &__item {
+    background: var(--clr-bg-grey);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (min-width: 81.25em) {
+      background: none;
+    }
+    &--full {
+      grid-row: span 2;
+    }
+  }
+
+  &__card {
+    margin: 0;
+  }
+
+  &__info {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+  }
+}

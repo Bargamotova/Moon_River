@@ -1,0 +1,20 @@
+.social {
+  &__container {
+    @media only screen and (min-width: 112.5em) {
+      max-width: 144rem;
+      margin: 0 auto;
+    }
+  }
+  &__title:first-child {
+    margin-bottom: 15px;
+  }
+  &__icons {
+    display: inline-flex;
+    gap: 20px;
+    padding-left: 15px;
+    @media only screen and (min-width: 37.5em) {
+      transform: translateY(-31px);
+      padding-left: 150px;
+    }
+  }
+}

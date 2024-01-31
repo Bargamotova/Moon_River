@@ -1,0 +1,35 @@
+:root {
+  --clr-primary: #272727;
+  --clr-secondary: #fff;
+  --clr-tirnary: #c2c2c2;
+  --clr-grey: #757575;
+  --clr-grey-light: #959595;
+  --clr-circle: #656565;
+  --clr-bg-grey: #ededed;
+  --clr-accent: #e2b67a;
+  --clr-invalid: rgb(248, 140, 107);
+  --width-content: 118rem;
+
+  --fz-16: 14px;
+  --fz-16: 16px;
+  --fz-18: 18px;
+  --fz-22: 22px;
+  --fz-24: 24px;
+  --fz-32: 32px;
+  --fz-48: 48px;
+  --fz-64: 64px;
+
+  --ff-futura: "FuturaPT";
+  --ff-segoe: "SegoeUI";
+  --ff-forum: "Forum";
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 450;
+  --fw-bold: 600;
+
+  --fs-italic: italic;
+  @media only screen and (min-width: 112.5em) {
+    --width-content: 144rem;
+  }
+}

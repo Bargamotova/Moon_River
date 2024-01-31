@@ -1,0 +1,31 @@
+<div class="navigation">
+  <div class="container">
+    <div class="navigation__top">
+      <img src="img/White.svg" alt="Moon River" title="Logo" class="navigation__logo">
+      @include('../partials/control.html')
+    </div>
+  </div>
+  @include('../partials/menu.html')
+  <div class="container">
+    @include('../partials/categories.html')
+    <footer class="navigation__bottom">
+      <div class="navigation__content">
+        <figure class="navigation__img-box">
+          <picture>
+            <source type="img/webp" srcset="img/hero@2.webp">
+            <source type="img/avif" srcset="img/hero@2.avif">
+            <source type="img/jpg" srcset="img/hero@2.jpg">
+            <img loading="lazy" src="img/hero@2.jpg" alt="the men and woman are getting to kiss"
+              class="navigation__img">
+          </picture>
+          <figcaption class="navigation__img-content">
+            <p class="navigation__subtitle" data-lang="nav-1">Новая коллекция by Mercury</p>
+            <h2 class="navigation__title">JUST UN CHOU</h2>
+            <a href="#" class="navigation__link" data-lang="nav-2">Смотреть коллекцию</a>
+          </figcaption>
+        </figure>
+        @include('../partials/form-mail.html')
+      </div>
+    </footer>
+  </div>
+</div>

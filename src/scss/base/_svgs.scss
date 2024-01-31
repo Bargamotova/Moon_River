@@ -1,0 +1,56 @@
+.black-logo {
+  width: 258px;
+  height: 53px;
+}
+.white-logo {
+  width: 258px;
+  height: 53px;
+}
+
+.pin__icon {
+  stroke: #fff;
+  fill: transparent;
+  width: 60px;
+  height: 60px;
+  &:hover {
+    fill: #fff;
+    stroke: #272727;
+  }
+}
+.icon__fb {
+  height: 35px;
+  width: 35px;
+  fill: var(--clr-secondary);
+  transform: scale(1);
+  transition:
+    transform 0.3s ease,
+    fill 0.3s ease;
+  &:hover {
+    fill: var(--clr-accent);
+    transform: scale(0.8);
+  }
+}
+.icon__ins {
+  height: 35px;
+  width: 35px;
+  fill: var(--clr-secondary);
+  transform: scale(1);
+  transition:
+    transform 0.3s ease,
+    fill 0.3s ease;
+  &:hover {
+    fill: var(--clr-accent);
+    transform: scale(0.8);
+  }
+}
+.icon__market {
+  width: 90px;
+  height: 30px;
+}
+
+svg {
+  path {
+    fill: inherit;
+    stroke: inherit;
+  }
+}

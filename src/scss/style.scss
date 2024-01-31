@@ -1,0 +1,32 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/normalise";
+@import "base/base";
+@import "base/fonts";
+@import "base/svgs";
+@import "base/typography";
+
+@import "libs/slick";
+@import "libs/leaflet";
+@import "libs/mapstyle";
+
+@import "components/slider";
+@import "components/btn";
+@import "components/burger";
+@import "components/controll";
+@import "components/form";
+@import "components/menu";
+@import "components/categories";
+
+@import "pages/home";
+
+@import "layout/header";
+@import "layout/hero";
+@import "layout/choice";
+@import "layout/map";
+@import "layout/gallery";
+@import "layout/sotial";
+@import "layout/contacts";
+@import "layout/footer";
+@import "layout/navigation";

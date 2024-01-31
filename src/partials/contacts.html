@@ -1,0 +1,31 @@
+<div class="contacts">
+  <div class="contacts__list ">
+    <div class="contacts__item contacts__item--img">
+      <picture>
+        <source type="img/webp" srcset="img/contact.webp">
+        <source type="img/avif" srcset="img/contact.avif">
+        <source type="img/jpg" srcset="img/contact.jpg">
+        <img loading="lazy" src="img/contact.jpg" alt="the woman in a green background">
+      </picture>
+    </div>
+
+    <div class="contacts__item contacts__item--form">
+      <div class="contacts__content">
+        <div class=" contacts__box">
+          <p class="contacts__label" data-lang="contacts-1">
+            телефон флагманского магазина</p>
+          <a class="contacts__phone" href="+7800456456">+7 800 456 456</a>
+          <p class="contacts__label" data-lang="contacts-2">подпишитесь на новости</p>
+          <form class="form contacts__form">
+            <div class="form__group contacts__form-group">
+              <input class="form__input form__input--email" type="email" id="email-sub">
+              <label for="email-sub" class="form__label form__label--email" data-lang="contacts-3">Введите
+                E-mail</label>
+              <button class="btn-reset form__btn form__btn--dark contacts__btn " aria-label="Отправить"></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

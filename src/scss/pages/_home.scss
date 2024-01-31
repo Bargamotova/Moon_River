@@ -1,0 +1,37 @@
+// All sections
+.hero {
+  width: 100%;
+  height: 95dvh;
+  height: 95vh;
+  background-image: linear-gradient(116deg, var(--clr-secondary) 60%, transparent 0%, var(--clr-primary) 40%);
+  background-repeat: no-repeat;
+  @media only screen and (min-width: 64em) {
+    background-image: linear-gradient(90deg, var(--clr-secondary) 60%, transparent 0%, var(--clr-primary) 40%);
+  }
+}
+.choice {
+  background: var(--clr-secondary);
+  padding: 20px 0;
+}
+.section-map {
+  background: var(--clr-primary);
+}
+.gallery {
+  background: var(--clr-secondary);
+  padding: 10px 0;
+}
+.social {
+  padding: 100px 0;
+  background: var(--clr-primary);
+}
+.contacts {
+  background: var(--clr-secondary);
+  @media only screen and (min-width: 112.5em) {
+    max-width: 144rem;
+    margin: 0 auto;
+  }
+}
+.footer {
+  padding: 80px 0 90px;
+  background: var(--clr-primary);
+}
